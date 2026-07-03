@@ -907,6 +907,10 @@ def action_loop(det: PanelDetector, state: SharedState,
 # ===================== 主函数 =====================
 
 def main():
+    if not SYSTEM:
+        print("缺 persona.txt（人设文件）：把 persona.example.txt 复制成"
+              " persona.txt 放在脚本旁边，写上你的 TA 是谁")
+        return
     client = openai.OpenAI(
         api_key=API_KEY,
         base_url="https://openrouter.ai/api/v1"
