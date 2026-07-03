@@ -81,9 +81,10 @@ python sky-loop-v7.py
 
 ## 致谢
 
-- 本项目的执行层（MCP server + 键盘注入）基于另一位老师的
-  sky-pc-mcp-companion 项目改造而来：<链接待补>。
-  感知层、调度层与固件 v2 为本项目新写。
+- 本项目的执行层（MCP server + 键盘注入）基于
+  [Aevella/sky-pc-mcp-companion](https://github.com/Aevella/sky-pc-mcp-companion)
+  改造而来，感谢 Aevella 老师的原始工作。
+  感知层（panel_detector）、调度层（sky-loop-v7）与固件 v2 为本项目新写。
 
 ## 作者的话
 
