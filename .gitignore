@@ -1,0 +1,18 @@
+# 密钥与人设（只住在本机）
+key.txt
+persona.txt
+
+# 调试取证与标定截图（含聊天记录，永不上传）
+flip_debug/
+/*.png
+/*.jpg
+
+# 内部工作手册与旧版
+CLAUDE.md
+sky-loop.py
+test-local.py
+start-http.bat
+start-stdio.bat
+
+__pycache__/
+*.pyc

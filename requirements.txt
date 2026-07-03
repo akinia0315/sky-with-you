@@ -1,0 +1,14 @@
+# 感知 + 调度（panel_detector.py / sky-loop-v7.py）
+numpy
+opencv-python
+mss
+rapidocr_onnxruntime
+openai
+requests
+
+# 执行层（sky-mcp-server.py）
+pyserial
+pyperclip
+pyautogui
+PyGetWindow
+pywin32; platform_system == "Windows"
